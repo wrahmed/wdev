@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    }
+ body{
+   position: relative;
+  }
+ 
+  h1 {
+    text-align: center;
+    margin-top: 6%;
+  }
+ 
+  span
+  {
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 16px;
+  }
+  p {
+    border: 1px solid black;
+    background-color: gray;
+    width: 90%;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+    color: white;
+    overflow: hidden;
+  }
+  #Chicken{
+   color:black;
+   text-align: right;
+   width:75px;
+   height: 20%;
+   padding: 5px;
+   background-color: rosybrown;
+   font-weight: bold;
+   border: 1px solid black;
+   float:right;
+ 
+   }
+ 
+    #Beef{
+   color:white;
+   text-align: center;
+   width:75px;
+   height: 20%;
+   padding: 1%;
+   background-color: #EB6545;
+   border: 1px solid black;
+   font-weight: bold;
+   float:right;
+ 
+   }
+   #Sushi{
+   color:black;
+   text-align: center;
+   width:75px;
+   height: 20%;
+   padding: 1%;
+   background-color: #e5d198;
+   border: 1px solid black;
+   font-weight: bold;
+   float:right;
+ 
+   }
+  .text{
+   padding:5%;
+   width:100%;  
+   color:black;
+   text-align: bottom;
+    display: inline-block;
+    font-size: 14px;
+  }
+  /* Simple Responsive Framework. */
+  .row {
+    width: 100%;
+    float:right;
+    position: relative;
+    margin-top: 5%;
+ 
+  }
+  /*DESKTOP*/
+   @media (min-width: 992px)  {
+     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+      float: left;   
+    }
+    
+    .col-lg-3 {
+      width: 30%;
+    }
+  }
+    /*TABLET*/
+ 
+  @media (min-width:  768px) and (max-width:  991px) {
+ 
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+      float: left;     
+     
+    }  
+    .col-md-6 {
+      width: 50%;
+    }
+     .col-md-12 {
+      width: 100%;
+      float: left;
+      margin-left:-10px;
+    }
+  }
+   
+
+  /*MOBILE*/
+  @media (max-width:767px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+      float: left;
+      
+    }
+    .col-md-1 {
+      width: 25%;
+    }
+    .col-md-2 {
+      width: 25%;
+    }
+    .col-md-3 {
+      width: 100%;
+      float: left;
+    }
+ 
+  }
